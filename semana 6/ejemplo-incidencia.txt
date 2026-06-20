@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 {
   "tipo": "Seguridad comunitaria / Iluminación",
   "descripcion": "Se reporta que tres lámparas públicas del sector principal se encuentran totalmente apagadas, generando zonas de oscuridad severa durante la noche."
 }
+=======
+{
+  "tipo": "Seguridad comunitaria / Iluminación",
+  "descripcion": "Se reporta que tres lámparas públicas del sector principal se encuentran totalmente apagadas, generando zonas de oscuridad severa durante la noche."
+}
+>>>>>>> 8e5afd9bdce23acd889e3955a7e3ed2809db9d78

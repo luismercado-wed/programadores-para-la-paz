@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 Análisis de la ruta POST /reporte:
 1. ¿Qué hace esta ruta?: Esta ruta escucha solicitudes de tipo POST en la dirección '/reporte'. Utiliza 'req.body.mensaje' para extraer un objeto JSON enviado por el cliente (como un formulario o una aplicación móvil) y responde confirmando la recepción con un estado y repitiendo el mensaje en formato JSON.
+=======
+Análisis de la ruta POST /reporte:
+1. ¿Qué hace esta ruta?: Esta ruta escucha solicitudes de tipo POST en la dirección '/reporte'. Utiliza 'req.body.mensaje' para extraer un objeto JSON enviado por el cliente (como un formulario o una aplicación móvil) y responde confirmando la recepción con un estado y repitiendo el mensaje en formato JSON.
+>>>>>>> 8e5afd9bdce23acd889e3955a7e3ed2809db9d78
 2. ¿Para qué podría servir en una aplicación comunitaria?: Serviría como el canal principal para que los ciudadanos envíen alertas, quejas o reportes en tiempo real (por ejemplo, reportar un bache en la calle, un poste de luz dañado o una alerta de seguridad), permitiendo que el sistema central almacene y organice la información para darle solución.

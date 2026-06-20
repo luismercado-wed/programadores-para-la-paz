@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Pregunta 1:
 Respuesta: B. Un formato de intercambio de datos usado entre aplicaciones
 
@@ -8,4 +9,16 @@ Pregunta 3:
 Respuesta: B. req.body
 
 Pregunta 4:
+=======
+Pregunta 1:
+Respuesta: B. Un formato de intercambio de datos usado entre aplicaciones
+
+Pregunta 2:
+Respuesta: B. Leer datos enviados en formato JSON en una petición
+
+Pregunta 3:
+Respuesta: B. req.body
+
+Pregunta 4:
+>>>>>>> 8e5afd9bdce23acd889e3955a7e3ed2809db9d78
 Respuesta: C. { "nombre": "Juan" }
