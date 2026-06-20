@@ -1,0 +1,8 @@
+Explicación de la consulta de datos (GET /reportes):
+
+Al realizar una petición GET a la ruta 'http://localhost:3000/reportes', el servidor responde con un código de estado 200 OK y devuelve un arreglo JSON conteniendo la lista de objetos acumulados en la memoria volátil del servidor. 
+
+Si previamente se envió un reporte a través de la ruta POST, la respuesta mostrará ese objeto estructurado dentro del array, incluyendo su propiedad 'id' autoincrementada (por ejemplo, id: 1). 
+
+Es importante destacar que debido a que el almacenamiento se realiza en una variable global en memoria ('let reportes = []'), si el servidor de Node.js se reinicia o se apaga, la consulta GET devolverá un array vacío '[]' hasta que se registren nuevos elementos de prueba.
+

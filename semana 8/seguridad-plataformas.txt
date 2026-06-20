@@ -1,0 +1,5 @@
+1. Principio de Minimización de Datos: No exponer ni almacenar datos personales sensibles de los miembros de la comunidad si no son estrictamente necesarios para el proceso participativo.
+2. Resguardo de Credenciales: Implementar políticas de contraseñas robustas y hashing seguro (como bcrypt) en el almacenamiento de credenciales de usuario en el backend.
+3. Implementación de Conexiones Seguras: Forzar el uso exclusivo de protocolos HTTPS mediante certificados SSL/TLS para cifrar el tráfico de datos entre los usuarios y la plataforma.
+4. Registro y Auditoría de Accesos: Mantener logs o registros de acceso automatizados que permitan identificar comportamientos anómalos o intentos de inicio de sesión no autorizados.
+5. Control de Acceso Basado en Roles (RBAC): Limitar el acceso a los módulos administrativos e información sensible de la plataforma únicamente a los coordinadores verificados de la veeduría o comunidad.

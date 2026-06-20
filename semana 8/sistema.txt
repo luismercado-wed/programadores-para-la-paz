@@ -1,0 +1,8 @@
+Información que muestra cada comando:
+- 'uname -a': Muestra información detallada del sistema operativo y del núcleo (Kernel) de Linux, incluyendo el nombre del host, la versión del kernel, la arquitectura del procesador (ej. x86_64 o aarch64) y la fecha de compilación del sistema.
+- 'whoami': Muestra el nombre exacto del usuario actual que tiene la sesión activa en la terminal de Linux.
+
+Utilidad en la administración de un servidor:
+Conocer estos datos es fundamental por dos razones principales:
+1. Compatibilidad y Parcheo: Permite verificar si el kernel del servidor es vulnerable y si requiere actualizaciones críticas de seguridad, además de asegurar que los paquetes de software que se vayan a instalar sean compatibles con la arquitectura y distribución.
+2. Control de Privilegios: Saber qué usuario ejecuta la terminal evita errores catastróficos (como ejecutar scripts destructivos con el usuario 'root') y ayuda a auditar los permisos necesarios para levantar servicios backend de forma segura.
