@@ -1,0 +1,4 @@
+{
+  "tipo": "Seguridad comunitaria / Iluminación",
+  "descripcion": "Se reporta que tres lámparas públicas del sector principal se encuentran totalmente apagadas, generando zonas de oscuridad severa durante la noche."
+}
